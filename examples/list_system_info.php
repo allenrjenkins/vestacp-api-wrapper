@@ -9,7 +9,11 @@ $vestacp_required_args = array(
     'password' => VESTACP_PASSWORD
 );
 
-$vestacp = new VestaCP($vestacp_required_args);
+try {
+    $vestacp = new VestaCP($vestacp_required_args);
+} catch (Exception $e) {
+    die($e->getMessage());
+}
 
 $action_params = array(
     'json'
