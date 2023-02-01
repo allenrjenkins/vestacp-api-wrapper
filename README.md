@@ -1,3 +1,6 @@
+# DEPRECATED
+This project is deprecated and you should read below.
+
 # vestacp-api-wrapper
 Easily connect to a vestacp host and run any api call necessary.
 
